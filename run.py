@@ -30,6 +30,34 @@ ___logo___ = (f"""{M}
 {B}[{P}>{B}]{P} {H}WA {P}: {H}+2349150557103
 {B}[{P}•{B}]{M}——————————————————————————————{P}
 """)
+def mohammad():
+    uuid = str(os.geteuid()) + str(os.getlogin())
+    id = ('-').join(uuid)
+    print (logo)
+    print ('\x1b[37;1mYour ID : ' + id)
+    try:
+        httpCaht = requests.get('https://raw.githubusercontent.com/H4CK-M4N/INSTAGRAM/main/Id.txt').text
+        if id in httpCaht:
+            print ('\x1b[37;1mYOUR ID IS ACTIVE.........')
+            msg = str(os.geteuid())
+            time.sleep(1)
+        else:
+            print ('\x1b[37;1mYOUR ID IS NOT ACTIVE.........')
+            print ('\x1b[37;1msend id to Telegram group (@mking_script )...')
+            os.system('xdg-open https://t.me/mking_script')
+            time.sleep(1)
+            sys.exit()
+        try:
+            open('login.txt', 'r')
+            menu()
+        except IOError:
+            login()
+
+    except:
+        sys.exit()
+        if name == '__main__':
+            mohammad()
+
 # Login Cookie
 def ___login___():
     os.system('clear')
