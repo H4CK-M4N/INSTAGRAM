@@ -21,7 +21,7 @@ ___logo___ = (f"""{M}
  | |  | | |___| |___ / ___ \| |\  || || |\  | 
  |_|  |_|_____|_____/_/   \_\_| \_|___|_| \_|{P}
                                         
-{B}[{P}>{B}]{P} {K}Share Tools Crack Akun IG, Not For Sale!{P}
+{B}[{P}>{B}]{P} {K}Melanin Best Instagram Hacking Tool!{P}
 
 {B}[{P}•{B}]{M}——————————————————————————————{P}
 {B}[{P}>{B}]{P} {K}AU {P}: {K}MELANIN {P}Ft. {H}H4CK-MAN
