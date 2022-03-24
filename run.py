@@ -30,7 +30,6 @@ ___logo___ = (f"""{M}
 {B}[{P}>{B}]{P} {H}WA {P}: {H}+2349150557103
 {B}[{P}•{B}]{M}——————————————————————————————{P}
 """)
-
 def main_apv():
     imt = '~~RED-MAFIA=='
     os.system('clear')
