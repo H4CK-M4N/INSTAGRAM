@@ -25,7 +25,7 @@ ___logo___ = (f"""{M}
 {B}[{P}>{B}]{P} {K}Share Tools Crack Akun IG, Not For Sale!{P}
 
 {B}[{P}•{B}]{M}——————————————————————————————{P}
-{B}[{P}>{B}]{P} {K}AU {P}: {K}MELANIN {P}Ft. {H}Najimi {M}Ajimu
+{B}[{P}>{B}]{P} {K}AU {P}: {K}MELANIN {P}Ft. {H}H4CK-MAN
 {B}[{P}>{B}]{P} {B}FB {P}: {B}Melanin
 {B}[{P}>{B}]{P} {U}IG {P}: {U}@iam_melanin_
 {B}[{P}>{B}]{P} {H}WA {P}: {H}+2349150557103
