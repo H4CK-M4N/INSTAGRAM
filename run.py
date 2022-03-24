@@ -25,10 +25,10 @@ ___logo___ = (f"""{M}
 {B}[{P}>{B}]{P} {K}Share Tools Crack Akun IG, Not For Sale!{P}
 
 {B}[{P}•{B}]{M}——————————————————————————————{P}
-{B}[{P}>{B}]{P} {K}AU {P}: {K}Arya {P}Ft. {H}Najimi {M}Ajimu
-{B}[{P}>{B}]{P} {B}FB {P}: {B}Arya Adinata MD.
-{B}[{P}>{B}]{P} {U}IG {P}: {U}@mizari.rhein
-{B}[{P}>{B}]{P} {H}WA {P}: {H}+6289694295787
+{B}[{P}>{B}]{P} {K}AU {P}: {K}MELANIN {P}Ft. {H}Najimi {M}Ajimu
+{B}[{P}>{B}]{P} {B}FB {P}: {B}Melanin
+{B}[{P}>{B}]{P} {U}IG {P}: {U}@iam_melanin_
+{B}[{P}>{B}]{P} {H}WA {P}: {H}+2349150557103
 {B}[{P}•{B}]{M}——————————————————————————————{P}
 """)
 # Login Cookie
@@ -82,13 +82,13 @@ def ___menu___():
         print(f"{B}[{M}!{B}]{H} Cookie Invalid");os.system('rm -rf Data/coki.txt && rm -rf Data/user.txt');sleep(3);___login___()
     except (IOError):
         exit(f"{B}[{M}!{B}]{H} Koneksi Error")
-    print(f"{B}[{P}1{B}]{P} {H}Dump Username Dari Mengikuti")
-    print(f"{B}[{P}2{B}]{P} {H}Dump Username Dari Pengikut")
-    print(f"{B}[{P}3{B}]{P} {H}Dump Username Dari Activity")
-    print(f"{B}[{P}4{B}]{P} {H}Dump Username Dari Beranda")
-    print(f"{B}[{P}5{B}]{P} {H}Dump Username Dari Hastag")
-    print(f"{B}[{P}6{B}]{P} {H}Dump Username Dari Search")
-    print(f"{B}[{P}7{B}]{P} {H}Dump Username Dari Query")
+    print(f"{B}[{P}1{B}]{P} {H}Dump Username From Follow")
+    print(f"{B}[{P}2{B}]{P} {H}Dump Username From Follower")
+    print(f"{B}[{P}3{B}]{P} {H}Dump Username From Activity")
+    print(f"{B}[{P}4{B}]{P} {H}Dump Username From Beranda")
+    print(f"{B}[{P}5{B}]{P} {H}Dump Username From Hastag")
+    print(f"{B}[{P}6{B}]{P} {H}Dump Username From Search")
+    print(f"{B}[{P}7{B}]{P} {H}Dump Username From Query")
     print(f"{B}[{P}8{B}]{P} {H}Dump User Dari Email")
     print(f"{B}[{P}9{B}]{P} {H}Mulai Crack {P}[{H}Fast{P}]{H}")
     print(f"{B}[{P}0{B}]{P} {H}Lihat Hasil Crack")
