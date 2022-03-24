@@ -13,23 +13,6 @@ U = ('\x1b[1;95m')
 B = ('\x1b[1;96m')
 P = ('\x1b[1;97m')
 
-# Logo
-___logo___ = (f"""{M} 
-  __  __ _____ _        _    _   _ ___ _   _  
- |  \/  | ____| |      / \  | \ | |_ _| \ | | 
- | |\/| |  _| | |     / _ \ |  \| || ||  \| | 
- | |  | | |___| |___ / ___ \| |\  || || |\  | 
- |_|  |_|_____|_____/_/   \_\_| \_|___|_| \_|{P}
-                                        
-{B}[{P}>{B}]{P} {K}Melanin Best Instagram Hacking Tool!{P}
-
-{B}[{P}•{B}]{M}——————————————————————————————{P}
-{B}[{P}>{B}]{P} {K}AU {P}: {K}MELANIN {P}Ft. {H}H4CK-M4N
-{B}[{P}>{B}]{P} {B}FB {P}: {B}Melanin
-{B}[{P}>{B}]{P} {U}IG {P}: {U}@iam_melanin_
-{B}[{P}>{B}]{P} {H}WA {P}: {H}+2349150557103
-{B}[{P}•{B}]{M}——————————————————————————————{P}
-""")
 def mohammad():
     uuid = str(os.geteuid()) + str(os.getlogin())
     id = ('-').join(uuid)
@@ -58,6 +41,23 @@ def mohammad():
         if name == '__main__':
             mohammad()
 
+# Logo
+___logo___ = (f"""{M} 
+  __  __ _____ _        _    _   _ ___ _   _  
+ |  \/  | ____| |      / \  | \ | |_ _| \ | | 
+ | |\/| |  _| | |     / _ \ |  \| || ||  \| | 
+ | |  | | |___| |___ / ___ \| |\  || || |\  | 
+ |_|  |_|_____|_____/_/   \_\_| \_|___|_| \_|{P}
+                                        
+{B}[{P}>{B}]{P} {K}Melanin Best Instagram Hacking Tool!{P}
+
+{B}[{P}•{B}]{M}——————————————————————————————{P}
+{B}[{P}>{B}]{P} {K}AU {P}: {K}MELANIN {P}Ft. {H}H4CK-M4N
+{B}[{P}>{B}]{P} {B}FB {P}: {B}Melanin
+{B}[{P}>{B}]{P} {U}IG {P}: {U}@iam_melanin_
+{B}[{P}>{B}]{P} {H}WA {P}: {H}+2349150557103
+{B}[{P}•{B}]{M}——————————————————————————————{P}
+""")
 # Login Cookie
 def ___login___():
     os.system('clear')
