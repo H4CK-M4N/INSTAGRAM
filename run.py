@@ -2,7 +2,7 @@ import os, re, sys, time, json, random, requests
 from concurrent.futures import ThreadPoolExecutor
 from requests.exceptions import ConnectionError
 from time import sleep
-# Author : Moch Arya Adinata
+# Author : Melanin
 # Recode Punya Mas Rozhak🖐️😎
 H = ('\x1b[1;90m')
 M = ('\x1b[1;91m')
