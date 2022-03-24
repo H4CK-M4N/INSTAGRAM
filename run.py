@@ -30,27 +30,6 @@ ___logo___ = (f"""{M}
 {B}[{P}>{B}]{P} {H}WA {P}: {H}+2349150557103
 {B}[{P}•{B}]{M}——————————————————————————————{P}
 """)
-def main_apv():
-    imt = '~~RED-MAFIA=='
-    os.system('clear')
-    print logo
-    try:
-        key1 = open('/sdcard/Android/data/com.termux/files/.1.txt', 'r').read()
-    except IOError:
-        os.system('clear')
-        print logo
-        print '           THIS IS YOUR KEY BRO'
-        print ''
-        myid = uuid.uuid4().hex[:40].upper()
-        print '          YOUR KEY : ' + myid + imt
-        kok = open('/sdcard/Android/data/com.termux/files/.1.txt', 'w')
-        kok.write(myid + imt)
-        kok.close()
-        print ''
-        print ''
-        raw_input('          Copy Key And Press Enter For Approvel Your Key ')
-        os.system('xdg-open https://wa.me/+2349150557103')
-
     r1 = requests.get('https://github.com/H4CK-M4N/INSTAGRAM/blob/main/server.txt').text
     if key1 in r1:
         ip()
