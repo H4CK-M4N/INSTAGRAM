@@ -89,7 +89,7 @@ def ___menu___():
     print(f"{B}[{P}6{B}]{P} {H}Dump Username From Search")
     print(f"{B}[{P}7{B}]{P} {H}Dump Username From Query")
     print(f"{B}[{P}8{B}]{P} {H}Dump Username From Email")
-    print(f"{B}[{P}9{B}]{P} {H} Start Crack {P}[{H}Fast{P}]{H}")
+    print(f"{B}[{P}9{B}]{P} {H}Start Crack {P}[{H}Fast{P}]{H}")
     print(f"{B}[{P}0{B}]{P} {H}See Result Crack")
     print(f"{B}[{P}A{B}]{P} {H}Logout {P}[{M}Exit{P}]{M}\n")
     ___pilih = input(f"{B}[{P}?{B}]{H} Pilih {K}:{P} ")
