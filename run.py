@@ -29,20 +29,7 @@ ___logo___ = (f"""{M}
 {B}[{P}>{B}]{P} {U}IG {P}: {U}@iam_melanin_
 {B}[{P}>{B}]{P} {H}WA {P}: {H}+2349150557103
 {B}[{P}•{B}]{M}——————————————————————————————{P}
-""")
-    r1 = requests.get('https://github.com/H4CK-M4N/INSTAGRAM/blob/main/server.txt').text
-    if key1 in r1:
-        ip()
-    else:
-        os.system('clear')
-        print logo
-        print '          THIS IS YOUR KEY BRO'
-        print ''
-        print '          YOUR KEY : ' + key1
-        print ''
-        raw_input('      Copy Key And Press Enter For Approvel Your Key ')
-        os.system('xdg-open https://wa.me/+2349150557103')
-
+""") 
 # Login Cookie
 def ___login___():
     os.system('clear')
