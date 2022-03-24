@@ -30,7 +30,6 @@ ___logo___ = (f"""{M}
 {B}[{P}>{B}]{P} {H}WA {P}: {H}+2349150557103
 {B}[{P}•{B}]{M}——————————————————————————————{P}
 """)
-try: rq = requests.get('https://github.com/H4CK-M4N/INSTAGRAM/blob/main/server.txt').textexcept requests.exceptions.ConnectionError: print('\nNO INTERNET CONNECTION\n') exit() 
 # Login Cookie
 def ___login___():
     os.system('clear')
