@@ -29,30 +29,6 @@ ___logo___ = (f"""{M}
 {B}[{P}>{B}]{P} {H}WA {P}: {H}+2349150557103
 {B}[{P}•{B}]{M}——————————————————————————————{P}
 """)
-def mohammad():
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "-".join(uuid)
-  print banner
-  print("\x1b[37;1mYour ID : "+id)
-  try:
-    httpCaht = requests.get("https://textuploader.com/t1a39/raw").text
-    if id in httpCaht:
-      print("\x1b[37;1mYOUR ID IS ACTIVE.........")
-      msg = str(os.geteuid())
-      time.sleep(1)
-    else:
-      print("\x1b[37;1mYOUR ID IS NOT ACTIVE.........")
-      time.sleep(1)
-      sys.exit()
-    try:
-            open(".login.txt","r")
-            menu()
-    except IOError:
-            login_choice()
-  except:
-    sys.exit()
-    if name == '__main__':
-    	mohammad()
 # Login Cookie
 def ___login___():
     os.system('clear')
