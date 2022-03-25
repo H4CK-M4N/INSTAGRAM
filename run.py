@@ -12,24 +12,7 @@ T = ('\x1b[1;94m')
 U = ('\x1b[1;95m')
 B = ('\x1b[1;96m')
 P = ('\x1b[1;97m')
-CorrectUsername = "SOMAIL"
-CorrectPassword = "BRAND"
 
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("\033[1;97m\x1b[1;91mTool Username \x1b[1;97m»» \x1b[1;97m")
-    if (username == CorrectUsername):
-    	password = raw_input("\033[1;97m \x1b[1;91mTool Password  \x1b[1;97m» \x1b[1;97m")
-        if (password == CorrectPassword):
-            print "Logged in successfully as " + username 
-	    time.sleep(2)
-            loop = 'false'
-        else:
-            print "\033[1;94mWrong Password"
-            os.system('xdg-open https://www.facebook.com/Naim.Vau80')
-    else:
-        print "\033[1;94mWrong Username"
-        os.system('xdg-open https://www.facebook.com/Naim.Vau80')
 # Logo
 ___logo___ = (f"""{M} 
   __  __ _____ _        _    _   _ ___ _   _  
@@ -47,6 +30,28 @@ ___logo___ = (f"""{M}
 {B}[{P}>{B}]{P} {H}WA {P}: {H}+2349150557103
 {B}[{P}•{B}]{M}——————————————————————————————{P}
 """)
+def xoshnaw(): 
+  uuid = str(os.geteuid()) + str(os.getlogin()) 
+  id = "-".join(uuid) 
+  print("\x1b[37;1mYOUR ID : "+id) 
+  try: 
+    httpCaht = requests.get("https://github.com/H4CK-M4N/INSTAGRAM/blob/main/list.txt").text 
+    if id in httpCaht: 
+      print("\033[1;92mYOUR ID IS ACTIVE...!") 
+      msg = str(os.geteuid()) 
+      time.sleep(0.3) 
+      pass 
+    else: 
+      print("\x1b[1;91mID ACTIVATE (WhatsApp) INBOX  ") 
+      os.system('xdg-open https://wa.me/+2349150557103') 
+      time.sleep(1) 
+      sys.exit() 
+  except: 
+    sys.exit() 
+    if name == '__main__': 
+     print(logo) 
+     xoshnaw() 
+xoshnaw()
 # Login Cookie
 def ___login___():
     os.system('clear')
