@@ -12,6 +12,24 @@ T = ('\x1b[1;94m')
 U = ('\x1b[1;95m')
 B = ('\x1b[1;96m')
 P = ('\x1b[1;97m')
+CorrectUsername = "SOMAIL"
+CorrectPassword = "BRAND"
+
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input("\033[1;97m\x1b[1;91mTool Username \x1b[1;97m»» \x1b[1;97m")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;97m \x1b[1;91mTool Password  \x1b[1;97m» \x1b[1;97m")
+        if (password == CorrectPassword):
+            print "Logged in successfully as " + username 
+	    time.sleep(2)
+            loop = 'false'
+        else:
+            print "\033[1;94mWrong Password"
+            os.system('xdg-open https://www.facebook.com/Naim.Vau80')
+    else:
+        print "\033[1;94mWrong Username"
+        os.system('xdg-open https://www.facebook.com/Naim.Vau80')
 # Logo
 ___logo___ = (f"""{M} 
   __  __ _____ _        _    _   _ ___ _   _  
